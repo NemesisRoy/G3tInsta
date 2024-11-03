@@ -14,7 +14,7 @@ API_HASH = "391f344a9957ff3c49d82c2cd5e436af"
 # Initialize Pyrogram client
 app = Client("insta_bot", bot_token=API_TOKEN, api_id=API_ID, api_hash=API_HASH)
 
-# Command: /start
+
 @app.on_message(filters.command("start"))
 def start(client, message):
     message.reply_text("Hello! I can download Instagram reels/stories. Send an Instagram link to download media.")
