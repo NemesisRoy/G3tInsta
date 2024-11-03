@@ -3,7 +3,7 @@ import instaloader
 import os
 import glob
 
-# Initialize instaloader
+
 L = instaloader.Instaloader()
 
 # Telegram Bot API token
