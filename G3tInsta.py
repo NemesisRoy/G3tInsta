@@ -25,7 +25,7 @@ def handle_instagram_link(client, message):
         message.reply_text("Ruko Download Karke Deta hu 🥱")
         download_instagram_media(client, message)
 
-# Function to download Instagram media
+
 def download_instagram_media(client, message):
     link = message.text
     try:
