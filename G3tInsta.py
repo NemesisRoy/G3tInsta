@@ -41,7 +41,7 @@ def download_instagram_media(client, message):
         # Download the post
         L.download_post(post, target=download_dir)
         
-        # Find the downloaded video file
+        
         downloaded_files = glob.glob(os.path.join(download_dir, "*.mp4"))
         if downloaded_files:
             video_file_path = downloaded_files[0]
