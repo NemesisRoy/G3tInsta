@@ -6,7 +6,6 @@ import glob
 
 L = instaloader.Instaloader()
 
-# Telegram Bot API token
 API_TOKEN = "7476910522:AAFiun8K__9RvmrtXbq3L9GPIbDkQquH9xY"
 API_ID = "15911095"
 API_HASH = "391f344a9957ff3c49d82c2cd5e436af"
