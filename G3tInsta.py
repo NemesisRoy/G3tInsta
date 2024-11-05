@@ -10,7 +10,7 @@ API_TOKEN = "7476910522:AAFiun8K__9RvmrtXbq3L9GPIbDkQquH9xY"
 API_ID = "15911095"
 API_HASH = "391f344a9957ff3c49d82c2cd5e436af"
 
-# Initialize Pyrogram client
+
 app = Client("insta_bot", bot_token=API_TOKEN, api_id=API_ID, api_hash=API_HASH)
 
 
